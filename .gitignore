@@ -7,3 +7,50 @@
 *.a
 *.o
 *.obj
+
+# -------------------------------
+# LaTeX build files and auxiliaries
+# -------------------------------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.pdfsync
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+*.xdv
+*.xmpi
+*.xwm
+
+# -------------------------------
+# Editor backup and temp files
+# -------------------------------
+*~
+*.swp
+*.bak
+*.tmp
+*.backup
+*.DS_Store
+Thumbs.db
+
+# -------------------------------
+# VS Code LaTeX Workshop temporary files
+# -------------------------------
+.vscode/
+latex.out/
+out/
+build/
