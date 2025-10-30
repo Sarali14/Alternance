@@ -1,0 +1,9 @@
+# Ignore all compiled executables and object files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
