@@ -8,6 +8,7 @@
 *.o
 *.obj
 *.xpi
+presentation_1/main.pdf
 # -------------------------------
 # LaTeX build files and auxiliaries
 # -------------------------------
