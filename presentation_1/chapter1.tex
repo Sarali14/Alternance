@@ -45,15 +45,19 @@ les dérivées sur chaque point de la grille sont évalués à l'aide des valeur
 ou "sparse" .\newline
 Ces méthodes sont largement utilisées en analyse numérique, pour leur simplicité de mise en œuvre , leur efficacité et leur compatibilité avec diverses conditions aux limites.
 Mais elles présentent certaines limitations, notamment en termes de précision , car pour augmenter l'ordre de précision, il faut élargir le stencil,
-ce qui peut être limitant du point de vue computationnel vue la taille de la matrice qui en résulte. \newline
+ce qui peut être limitant du point de vue computationnel vue la taille de la matrice qui en résulte.\newline
+
 \vspace{5mm}
 D'un autre côté, on trouve les méthodes spectral qui reposent sur l'expension de la fonction en une série de fonctions de base globales.
 DOnc cette approximation utilise la totalitée des noeuds de la grille pour évaluer les dérivées, ce qui nous donne une convergence exponentielle pour les fonctions lisses.
 Cependant, ces méthodes peuvent être plus complexes à mettre en œuvre et sont souvent moins flexibles pour des géométries compliquées ou des conditions aux limites variées.
 Les méthodes spectrales ont émergé surtout du besoin d'une précision élevée pour capturer les structures lisses dans les solutions des équations différentielles.
-Par contre ces méthodes sont limitées aux turbulences simples et aux géométries périodiques. \newline
+Par contre ces méthodes sont limitées aux turbulences simples et aux géométries périodiques.\newline
+
 \vspace{5mm}
 Donc le problème principal était de trouvé une méthode simple à implémenter, avec une haute précision, et qui soit efficace du point de vue computationnel.
 C'est dans ce context que les schémas compactes ont été développés, combinant les avantages des deux approches précédentes.
-Ces schémas étaient introduis par Lele en 1992 \cite{Lele1992} et ont depuis été largement adoptés dans la communauté de la simulation numérique.
+Ces schémas étaient introduis par Lele en 1992 \cite{leleCompactFiniteDifference1992} et ont depuis été largement adoptés dans la communauté de la simulation numérique.
+
+
 
